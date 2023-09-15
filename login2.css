@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./gradient-abstract-yellow-background_79603-1548.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .login-form {
+    width: 400px;
+    height: 550px;
+    background-image: url(./bright-yellow-background-with-triangle-pattern_1017-33837.avif);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero .login-form h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.hero .login-form h1::after{
+    content: '';
+    width: 20%;
+    height: 3px;
+    background: #facc22;
+    display: block;
+    position: absolute;
+    margin-top: 60px;
+    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hero .login-form .input-box{
+    width: 330px;
+    margin: 0 auto;
+
+}
+
+.hero .login-form .input-box .field{
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    outline: none;
+    background: none;
+    font-size: 15px;
+}
+
+.hero .login-form .input-box .check-box{
+    margin: 25px 0;
+    accent-color: #facc22;
+    cursor: pointer;
+}
+
+
+.hero .login-form .input-box p{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    width: 50%;
+    color: #434343;
+}
+
+.hero .login-form .input-box .submit-btn{
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 9px;
+    border: 1px solid black;
+   
+    background: #facc22;
+    padding: 10px 20px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero .login-form .social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0;
+
+}
+
+.hero .login-form .social-icon i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    background: #facc22;
+    color: #434343;
+    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.hero .login-form .social-icon i:hover{
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    transform: translateY(-5px)
+
+}
+.hero .login-form .tag{
+    margin: 25px auto 0 auto;
+    width: 150px;
+}
+
+.hero .login-form .tag span{
+    font-size: 15px;
+}
+
+.hero .login-form .tag a{
+    font-size: 15px;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
